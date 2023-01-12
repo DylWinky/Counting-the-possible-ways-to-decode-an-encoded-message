@@ -11,7 +11,7 @@ To begin with, I considered whether you could simply consider the number of poss
 
 Therefore, I decided to represent the varios possibilitys in a binary tree, where each node represents a possible character, and its (up to) two children are the possibilities for the next one. Put another way, each child will be the root of subtree representing all the future possibilities from that point. For example, for the message '111' we have the binary tree:
 <div>
-   <img src="../../Coding%20Images/Binary%20Tree%20for%20'111'.jpeg" width="300">
+   <img src="binary_tree_1.jpeg" width="300">
 </div>    
 (note the 0 at the top of the tree does not represent a character, it simple shows the split in possibilities for character one, and hence allows the two subtrees to be combines into one binary tree)  
     
@@ -19,11 +19,11 @@ Each possible combination of letters for the decoded message is represented by a
 
 A more interesting example is given below, for the message '1123', which shows that their are 5 possibilities: 
 <div>
-   <img src="../../Coding%20Images/Binary%20Tree%20Diagram%202.jpeg" width="300">
+   <img src="binary_tree_2.jpeg" width="300">
 </div>
 Finally, an example with larger integers is shown below, which is significant since nodes with a value > than 26 need to be discared by the program, since z = 26 is the largest number in the alphabet. The following message '148' can therefore be seen to have only 2 possibilities:
 <div>
-   <img src="../../Coding%20Images/Binary%20Tree%20digram%203.jpeg" width="300">
+   <img src="binary_tree_3.jpeg" width="300">
 </div>
 
 
